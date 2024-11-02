@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function MysticMusings() {
   const [currentCard, setCurrentCard] = useState(0);
@@ -66,6 +66,25 @@ export default function MysticMusings() {
     setCurrentCard((prev) => (prev - 1 + cards.length) % cards.length);
   };
 
+  // Add keyboard navigation
+  useEffect(() => {
+    const handleKeyPress = (event: KeyboardEvent) => {
+      if (event.key === 'ArrowRight') {
+        handleNext();
+      } else if (event.key === 'ArrowLeft') {
+        handlePrevious();
+      }
+    };
+
+    // Add event listener
+    window.addEventListener('keydown', handleKeyPress);
+
+    // Cleanup
+    return () => {
+      window.removeEventListener('keydown', handleKeyPress);
+    };
+  }, []); // Empty dependency array since handlers don't depend on any state
+
   return (
     <div className="min-h-screen flex flex-col items-center bg-f5f3ed text-3e4c39">
 
@@ -88,11 +107,17 @@ export default function MysticMusings() {
         
         {/* Navigation Buttons */}
         <div className="flex justify-between mt-6 w-full max-w-xl">
-          <button onClick={handlePrevious} className="bg-8b6c61 text-white py-2 px-4 rounded hover:bg-f4a261">
-            Previous
+          <button 
+            onClick={handlePrevious} 
+            className="bg-8b6c61 text-white py-2 px-4 rounded hover:bg-f4a261 transition-colors duration-300"
+          >
+            ← Previous
           </button>
-          <button onClick={handleNext} className="bg-8b6c61 text-white py-2 px-4 rounded hover:bg-f4a261">
-            Next
+          <button 
+            onClick={handleNext} 
+            className="bg-8b6c61 text-white py-2 px-4 rounded hover:bg-f4a261 transition-colors duration-300"
+          >
+            Next →
           </button>
         </div>
       </div>
