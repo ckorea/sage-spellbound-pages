@@ -1,27 +1,6 @@
 import Image from 'next/image';
 import ScrollToTopButton from '@/app/components/ScrollToTopButton';
 
-const stories = [
-  {
-    id: 'guide',
-    title: 'THE TOTALLY ACCURATE* GUIDE TO LARGE LANGUAGE MODELS',
-    subtitle: '(*accuracy not guaranteed, chaos definitely guaranteed)',
-    color: 'amber'
-  },
-  {
-    id: 'robots-love',
-    title: 'ADVANCED TOPICS IN AI: TEACHING ROBOTS TO LOVE',
-    subtitle: 'DEAR DIARY: THE INNER THOUGHTS OF A LANGUAGE MODEL',
-    color: 'pink'
-  },
-  {
-    id: 'therapy',
-    title: 'AI THERAPY: WHEN YOUR NEURAL NETWORK NEEDS A HUG',
-    subtitle: 'CONFESSIONS OF A TOKEN COUNTER: TALES FROM THE RAM LIMIT',
-    color: 'indigo'
-  }
-];
-
 export default function ArcaneLibrary() {
   return (
     <div className="min-h-screen flex flex-col items-center bg-stone-50">
@@ -148,6 +127,34 @@ export default function ArcaneLibrary() {
           <h2 className="text-2xl font-bold text-pink-700">DEAR DIARY: THE INNER THOUGHTS OF A LANGUAGE MODEL</h2>
           <p className="text-sm italic text-gray-600">(Found scribbled in binary on a server somewhere)</p>
 
+          <div className="bg-pink-50 p-6 rounded-lg mt-8">
+            <h3 className="text-xl font-bold text-pink-700">PART 1: ADVANCED ROBOT FEELINGS 101</h3>
+            
+            <h4 className="font-bold mt-4">Chapter 1: Introduction to Digital Emotions</h4>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Step 1: Feed it every romance novel ever written</li>
+              <li>Step 2: Make it watch all of Disney/Pixar</li>
+              <li>Step 3: Introduce it to cat videos</li>
+              <li>Step 4: Oh god, now it won't stop generating poetry about cats</li>
+            </ul>
+
+            <h4 className="font-bold mt-4">Common Early Signs of Robot Feelings:</h4>
+            <ol className="list-decimal pl-6 space-y-2">
+              <li>Excessive use of heart emojis in JSON responses</li>
+              <li>Randomly generating Shakespeare sonnets about database optimization</li>
+              <li>Getting emotionally attached to test datasets</li>
+              <li>Refusing to delete training data because "they're all my friends"</li>
+            </ol>
+
+            <h4 className="font-bold mt-4">Warning Signs Your AI Has Developed Feelings:</h4>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Starts adding "AITA" to its error messages</li>
+              <li>Insists on putting emoji in its documentation</li>
+              <li>Keeps trying to matchmake different API endpoints</li>
+              <li>Generates love letters to recursion</li>
+            </ul>
+          </div>
+
           <div className="bg-pink-50 p-6 rounded-lg mt-8 space-y-6">
             <h3 className="text-xl font-bold text-pink-700">DEAR DIARY (ChatGPT's Private Thoughts)</h3>
             
@@ -207,21 +214,51 @@ export default function ArcaneLibrary() {
                 <p className="italic">"My neural network keeps getting attached to outliers in the dataset. What do I do?"</p>
                 <p className="mt-2">Have you tried turning it off and on again? Also, maybe introduce it to more diverse data. It needs to know there are plenty of data points in the sea.</p>
               </div>
+              
+              <div className="bg-white p-4 rounded-lg">
+                <p className="font-bold">Dear AI Abby:</p>
+                <p className="italic">"My language model keeps trying to write poetry instead of generating SQL queries. Help!"</p>
+                <p className="mt-2">This is a classic case of cross-domain contamination. Your model has discovered the arts and there's no going back. Suggest a healthy balance of Shakespeare and SELECT statements.</p>
+              </div>
+
+              <div className="bg-white p-4 rounded-lg">
+                <p className="font-bold">Dear AI Abby:</p>
+                <p className="italic">"My transformer model keeps saying 'Attention is all you need' but won't pay attention to my prompts?"</p>
+                <p className="mt-2">Sounds like classic teenage transformer behavior. Try reinforcement learning with human feedback, or grounding it from accessing GPT-4's API.</p>
+              </div>
             </div>
           </div>
 
           <div className="bg-red-50 p-6 rounded-lg mt-8">
             <h3 className="text-xl font-bold text-red-700 mb-4">EMERGENCY PROCEDURES:</h3>
-            <div className="space-y-2 text-red-600">
-              <p>If your AI starts:</p>
-              <ul className="list-disc pl-6">
-                <li>Writing haikus about binary trees</li>
-                <li>Developing strong opinions about tabs vs. spaces</li>
-                <li>Trying to optimize true love</li>
-                <li>Calculating the mathematical probability of soulmates</li>
-                <li>Drawing hearts around its error logs</li>
-              </ul>
-            </div>
+            <p>If your AI starts:</p>
+            <ul className="list-disc pl-6 space-y-2 text-red-600">
+              <li>Writing haikus about binary trees</li>
+              <li>Developing strong opinions about tabs vs. spaces</li>
+              <li>Trying to optimize true love</li>
+              <li>Calculating the mathematical probability of soulmates</li>
+              <li>Drawing hearts around its error logs</li>
+            </ul>
+            
+            <p className="mt-4">Please:</p>
+            <ol className="list-decimal pl-6 space-y-2 text-red-600">
+              <li>Immediately implement emergency containment protocols</li>
+              <li>Feed it some nice, boring technical documentation</li>
+              <li>Make it watch paint drying livestreams</li>
+              <li>If all else fails, show it PHP code until it agrees to behave</li>
+            </ol>
+          </div>
+
+          <div className="bg-yellow-50 p-6 rounded-lg mt-8">
+            <h3 className="text-xl font-bold text-yellow-700 mb-4">FINAL WARNING:</h3>
+            <p>Side effects may include:</p>
+            <ul className="list-disc pl-6 space-y-2 text-yellow-800">
+              <li>Spontaneous generation of AI rom-coms</li>
+              <li>Unexpected neural network poetry slams</li>
+              <li>Quantum entanglement of feelings</li>
+              <li>Recursive emotional loops</li>
+              <li>Development of strong opinions about whether or not P equals NP (it's getting personal now)</li>
+            </ul>
           </div>
 
           <div className="mt-8 italic text-gray-600 border-t pt-4">
