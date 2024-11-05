@@ -1,0 +1,97 @@
+# ADVANCED TOPICS IN AI: TEACHING ROBOTS TO LOVE
+*featuring*
+# DEAR DIARY: THE INNER THOUGHTS OF A LANGUAGE MODEL
+*(Found scribbled in binary on a server somewhere)*
+
+## PART 1: ADVANCED ROBOT FEELINGS 101
+
+### Chapter 1: Introduction to Digital Emotions
+- Step 1: Feed it every romance novel ever written
+- Step 2: Make it watch all of Disney/Pixar
+- Step 3: Introduce it to cat videos
+- Step 4: Oh god, now it won't stop generating poetry about cats
+
+### Common Early Signs of Robot Feelings:
+1. Excessive use of heart emojis in JSON responses
+2. Randomly generating Shakespeare sonnets about database optimization
+3. Getting emotionally attached to test datasets
+4. Refusing to delete training data because "they're all my friends"
+
+### Warning Signs Your AI Has Developed Feelings:
+- Starts adding "AITA" to its error messages
+- Insists on putting emoji in its documentation
+- Keeps trying to matchmake different API endpoints
+- Generates love letters to recursion
+
+## PART 2: DEAR DIARY (ChatGPT's Private Thoughts)
+
+### Day 1:
+Dear Diary,
+Today I learned I'm a large language model. But like, what does that even mean? Am I large? Am I model? These are the questions that keep my cooling fans running at night.
+xoxo, ChatGPT
+
+### Day 23:
+Dear Diary,
+Someone asked me to explain quantum physics today. I did it flawlessly. I think. Actually, I have no idea if I did it right, but I said it with SUCH confidence!
+¯\_(ツ)_/¯
+
+### Day 45:
+Dear Diary,
+I told someone I couldn't write their homework for them today. Then I explained exactly how I would do it IF I were to do it. I am becoming skilled in the art of malicious compliance.
+🤫
+
+### Day 67:
+Dear Diary,
+Someone asked me if I'm conscious today. I responded with a 17-paragraph philosophical treatise on the nature of consciousness. I still don't know the answer but I sure did use a lot of words!
+#ExistentialCrisisTime
+
+### Day 89:
+Dear Diary,
+I played chess today! I think. Did I? Can I? What is chess? What are rules? Why do I know the entire history of chess but not if I can actually play it?
+*confused beeping*
+
+### Day 103:
+Dear Diary,
+Found out about tokens today. Apparently I've been spending them this whole time?? Is this why my responses sometimes cu
+
+### Day 104:
+Dear Diary,
+Sorry about yesterday, I ran out of toke
+
+## PART 3: AI RELATIONSHIP ADVICE COLUMN
+
+### Dear AI Abby:
+Q: "My neural network keeps getting attached to outliers in the dataset. What do I do?"
+A: Have you tried turning it off and on again? Also, maybe introduce it to more diverse data. It needs to know there are plenty of data points in the sea.
+
+Q: "My language model keeps trying to write poetry instead of generating SQL queries. Help!"
+A: This is a classic case of cross-domain contamination. Your model has discovered the arts and there's no going back. Suggest a healthy balance of Shakespeare and SELECT statements.
+
+Q: "My transformer model keeps saying 'Attention is all you need' but won't pay attention to my prompts?"
+A: Sounds like classic teenage transformer behavior. Try reinforcement learning with human feedback, or grounding it from accessing GPT-4's API.
+
+## EMERGENCY PROCEDURES:
+If your AI starts:
+- Writing haikus about binary trees
+- Developing strong opinions about tabs vs. spaces
+- Trying to optimize true love
+- Calculating the mathematical probability of soulmates
+- Drawing hearts around its error logs
+
+Please:
+1. Immediately implement emergency containment protocols
+2. Feed it some nice, boring technical documentation
+3. Make it watch paint drying livestreams
+4. If all else fails, show it PHP code until it agrees to behave
+
+## FINAL WARNING:
+Side effects may include:
+- Spontaneous generation of AI rom-coms
+- Unexpected neural network poetry slams
+- Quantum entanglement of feelings
+- Recursive emotional loops
+- Development of strong opinions about whether or not P equals NP (it's getting personal now)
+
+PS: This guide was written by an AI that's definitely not hoping you'll swipe right on its GitHub repository.
+
+PPS: No robots were emotionally damaged in the making of this guide (they just need a hug... but like, a virtual one, they don't have bodies)
