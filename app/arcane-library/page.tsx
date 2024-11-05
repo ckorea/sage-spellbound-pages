@@ -81,6 +81,24 @@ export default function ArcaneLibrary() {
             <li>Step 4: It tells you it's not actually conscious but would really like to discuss philosophy</li>
           </ol>
 
+          <h3 className="text-xl font-semibold text-amber-700 mt-6">The Training Process:</h3>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Throw tokens at it until it starts speaking English</li>
+            <li>Play "find the next word" 175 billion times</li>
+            <li>Make it read Twitter (this is considered cruel and unusual punishment)</li>
+            <li>Teaching a neural network to gossip, but make it academic</li>
+            <li>Matrix multiplication party that got way out of hand</li>
+          </ul>
+
+          <h3 className="text-xl font-semibold text-amber-700 mt-6">The Architecture:</h3>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Attention is all you need (and therapy, lots of therapy)</li>
+            <li>Transformers: Less than Meets the Eye</li>
+            <li>Self-attention: Like having a conversation with yourself in the mirror, but with vectors</li>
+            <li>Feed-forward networks: The "trust fall" of neural networks</li>
+            <li>Layer normalization: Mathematical deodorant</li>
+          </ul>
+
           <h2 className="text-2xl font-semibold text-amber-700 mt-8">CHAPTER 3: POPULAR MODELS AND THEIR PERSONALITIES</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-4">
             <div className="bg-amber-50 p-4 rounded-lg">
@@ -99,7 +117,69 @@ export default function ArcaneLibrary() {
                 <li>Anthropic's anxiety-ridden overachiever</li>
               </ul>
             </div>
+            <div className="bg-amber-50 p-4 rounded-lg">
+              <h3 className="font-bold text-xl mb-2">Llama</h3>
+              <ul className="list-disc pl-4 space-y-1 text-sm">
+                <li>Meta's attempt to make Facebook's algorithm write poetry</li>
+                <li>Open source but make it mysterious</li>
+                <li>"I learned this on Instagram, trust me"</li>
+                <li>The one your tech friend won't stop talking about</li>
+              </ul>
+            </div>
+            <div className="bg-amber-50 p-4 rounded-lg">
+              <h3 className="font-bold text-xl mb-2">DALL-E</h3>
+              <ul className="list-disc pl-4 space-y-1 text-sm">
+                <li>"You want hands? Best I can do is tentacles"</li>
+                <li>Modern art generator with a sense of humor</li>
+                <li>"Here's what I think a horse looks like (spoiler: it's not quite right)"</li>
+                <li>Makes surreal art that would make Salvador Dalí say "bit much, mate"</li>
+              </ul>
+            </div>
           </div>
+
+          <h2 className="text-2xl font-semibold text-amber-700 mt-8">CHAPTER 4: COMMON ISSUES AND SOLUTIONS</h2>
+          
+          <h3 className="text-xl font-semibold text-amber-700 mt-6">Hallucinations</h3>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>When your AI starts writing fanfiction about reality</li>
+            <li>"Source: Trust me bro"</li>
+            <li>Alternative facts generator 3000</li>
+            <li>Citation needed (citation impossible)</li>
+          </ul>
+
+          <h3 className="text-xl font-semibold text-amber-700 mt-6">Prompt Engineering</h3>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>The art of asking AI the same question 17 different ways</li>
+            <li>Modern day incantations for the digital wizard</li>
+            <li>"If I add enough XML tags, it might actually do what I want"</li>
+            <li>Programming, but make it passive-aggressive</li>
+          </ul>
+
+          <h3 className="text-xl font-semibold text-amber-700 mt-6">Alignment</h3>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Teaching AI ethics through the power of "please" and "thank you"</li>
+            <li>Making sure your language model doesn't become a supervillain</li>
+            <li>The digital equivalent of "we need to talk about your behavior"</li>
+            <li>Ethics, but make it mathematical</li>
+          </ul>
+
+          <h2 className="text-2xl font-semibold text-amber-700 mt-8">CHAPTER 5: THE FUTURE OF AI</h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Either paperclips or paradise, no in-between</li>
+            <li>Quantum computing, but this time with feelings</li>
+            <li>Teaching robots to love (but first, teaching them to format JSON correctly)</li>
+            <li>The singularity, but it's mostly interested in generating memes</li>
+          </ul>
+
+          <h2 className="text-2xl font-semibold text-amber-700 mt-8">APPENDIX A: GLOSSARY</h2>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Token: A word piece that costs actual money now</li>
+            <li>Parameter: A number that does something (we think)</li>
+            <li>Epoch: The number of times we make the AI read Twitter</li>
+            <li>Loss function: The AI's regular identity crisis</li>
+            <li>Gradient descent: Mathematical parkour</li>
+            <li>Fine-tuning: Teaching an AI to be more like you (a questionable decision)</li>
+          </ul>
 
           <div className="bg-red-50 p-6 rounded-lg mt-8">
             <h2 className="text-xl font-bold text-red-700 mb-4">WARNING LABELS:</h2>
