@@ -2,13 +2,77 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #f5f3ed;
-  --foreground: #3e4c39;
+@layer utilities {
+  .animate-gradient-shift {
+    background-size: 300% 300%;
+    animation: gradient-shift 8s ease infinite;
+  }
+
+  .perspective {
+    perspective: 1000px;
+  }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  min-height: 100vh;
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.grimoire-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(192, 38, 211, 0.3) transparent;
+}
+
+.grimoire-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.grimoire-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.grimoire-scroll::-webkit-scrollbar-thumb {
+  background-color: rgba(192, 38, 211, 0.3);
+  border-radius: 20px;
+}
+
+/* Holographic effects */
+.holographic {
+  position: relative;
+  overflow: hidden;
+}
+
+.holographic::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    45deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.1) 45%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.1) 55%,
+    transparent 100%
+  );
+  transform: translateX(-100%);
+  animation: holographic-sweep 3s ease-in-out infinite;
+}
+
+@keyframes holographic-sweep {
+  0% {
+    transform: translateX(-100%) rotate(0deg);
+  }
+  100% {
+    transform: translateX(100%) rotate(0deg);
+  }
 }

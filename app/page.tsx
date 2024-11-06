@@ -13,36 +13,24 @@ export default function Home() {
 
       {/* Sections with Image Headers */}
       <div className="mt-12 space-y-12 w-full max-w-3xl">
-        
-        {/* Mystic Musings */}
-        <a href="/mystic-musings" className="block transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
-          <section className="relative h-48 flex items-center justify-center bg-cover bg-center bg-no-repeat rounded-lg overflow-hidden shadow-lg" 
-                   style={{ backgroundImage: "url('/images/header-fall-1.webp')" }}>
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-60 transition-opacity duration-300 hover:opacity-70"></div>
-            <h2 className="text-4xl font-bold text-white relative z-10 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
-              Mystic Musings
-            </h2>
-          </section>
-        </a>
 
-        {/* Lore & Legends */}
-        <a href="/lore-legends" className="block transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
-          <section className="relative h-48 flex items-center justify-center bg-cover bg-center bg-no-repeat rounded-lg overflow-hidden shadow-lg" 
-                   style={{ backgroundImage: "url('/images/header-fall-2.webp')" }}>
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-60 transition-opacity duration-300 hover:opacity-70"></div>
-            <h2 className="text-4xl font-bold text-white relative z-10 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
-              Lore & Legends
-            </h2>
-          </section>
-        </a>
-
-        {/* Arcane Library */}
-        <a href="/arcane-library" className="block transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
+        {/* The Grimoire */}
+        <a href="/grimoire" className="block transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
           <section className="relative h-48 flex items-center justify-center bg-cover bg-center bg-no-repeat rounded-lg overflow-hidden shadow-lg" 
                    style={{ backgroundImage: "url('/images/header-fall-3.webp')" }}>
             <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-60 transition-opacity duration-300 hover:opacity-70"></div>
             <h2 className="text-4xl font-bold text-white relative z-10 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
-              The Arcane Library
+              The Grimoire
+            </h2>
+          </section>
+        </a>
+        {/* About Sage */}
+        <a href="/about" className="block transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
+          <section className="relative h-48 flex items-center justify-center bg-cover bg-center bg-no-repeat rounded-lg overflow-hidden shadow-lg" 
+                   style={{ backgroundImage: "url('/images/header-fall-1.webp')" }}>
+            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent opacity-60 transition-opacity duration-300 hover:opacity-70"></div>
+            <h2 className="text-4xl font-bold text-white relative z-10 drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]">
+              About Sage
             </h2>
           </section>
         </a>
@@ -50,7 +38,7 @@ export default function Home() {
 
       {/* Signature */}
       <p className="mt-12 text-center text-9d8471 font-serif text-xl">
-        With sparkles, spells, and stories, <br /> SageTheMagus
+        With sparkles, spells, and stories, <br /> Sage
       </p>
     </div>
   );

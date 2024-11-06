@@ -1,22 +1,34 @@
-import './globals.css'
-import type { Metadata } from 'next'
-import Navbar from './components/Navbar'
+import { Nunito, Crimson_Pro } from 'next/font/google';
+import './globals.css';
+import { ClientFavorites } from './context/FavoritesContext';
+import Navbar from './components/Navbar';
 
-export const metadata: Metadata = {
-  title: "Sage's Spellbound Pages",
-  description: 'A haven for the curious and the enchanted',
-}
+const nunito = Nunito({ 
+  subsets: ['latin'],
+  variable: '--font-nunito',
+  display: 'swap',
+});
+
+const crimsonPro = Crimson_Pro({ 
+  subsets: ['latin'],
+  variable: '--font-crimson-pro',
+  display: 'swap',
+});
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="bg-f5f3ed text-3e4c39 font-serif">
-        <Navbar />
-        <main className="container mx-auto px-4 py-8">{children}</main>
+    <html lang="en" className={`${nunito.variable} ${crimsonPro.variable}`}>
+      <body className="font-sans bg-cream-50 text-sage-900">
+        <ClientFavorites>
+          <Navbar />
+          <main className="min-h-screen">
+            {children}
+          </main>
+        </ClientFavorites>
       </body>
     </html>
   );

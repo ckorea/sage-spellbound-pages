@@ -19,7 +19,7 @@ export default function About() {
             src="/images/sage-pfp-author-1.webp"
             alt="Portrait of Sage in their study, surrounded by magical tomes and ethereal lighting, capturing their role as a modern-day magus"
             className="w-full h-full rounded-full border-4 border-f4a261 shadow-lg object-cover 
-                     transition-all duration-300 ease-in-out
+                     transition-all duration-300 ease-in-out transform
                      group-hover:scale-105 group-hover:border-8b6c61"
           />
           {/* Hover overlay with description */}

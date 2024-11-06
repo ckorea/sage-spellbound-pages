@@ -1,9 +1,16 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Remove the pageExtensions since you're not using MDX right now
-  webpack: (config) => {
-    return config
-  }
-}
+  pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
+  
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.resolve.fallback = {
+        ...config.resolve.fallback,
+        "punycode": false
+      };
+    }
+    return config;
+  },
+};
 
-module.exports = nextConfig 
+module.exports = nextConfig; 
